@@ -23,7 +23,7 @@ function get_client_ip() {
 }
 
 $ipaddress = get_client_ip(); 
-$apikey = "MjM5MDA6amlkZVJaMHBWV3N3c2FMdjhER3Z6Y1Z2N2U2NWtsemQ="; 
+$apikey = "API KEY FOR THE VPN/PROXY DETECTION (IPHUB)"; 
 
 $curl = curl_init();
 
@@ -54,7 +54,7 @@ $vpn_proxy_status = $block ? "Using VPN or Proxy." : "Not using VPN or Proxy.";
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'https://ipgeolocation.abstractapi.com/v1/?api_key=98edae86def84baf937ac9ab10db983b&ip_address=');
+curl_setopt($ch, CURLOPT_URL, 'https://ipgeolocation.abstractapi.com/v1/?api_key=YOUR_GEOLOCATION_DETECTOR_API_KEY&ip_address=');
 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
