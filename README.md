@@ -34,11 +34,6 @@ SecureURL Shortener is a PHP-based URL shortening service enhanced with IP geolo
 1. Clone the repository and configure `config.php` with database credentials.
 2. Create a MySQL database (e.g., `url_shortener`) on your server.
 3. Import the provided SQL dump to create the necessary tables:
-
-   ```sql
-   -- Paste the SQL dump provided here
-   ```
-
 4. Ensure PHP and MySQL are installed on your server.
 5. Start using SecureURL Shortener by accessing its URL on your server.
 
