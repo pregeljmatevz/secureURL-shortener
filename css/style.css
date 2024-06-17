@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+.url-shortener-portal {
+    animation: fadeIn 1.5s ease-in-out; 
+}
+
+body {
+    font: 14px sans-serif;
+    background-image: url('https://mrwallpaper.com/images/hd/4k-beach-nature-view-s0jgy1y9poz5zg54.jpg');
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.form_block {
+    width: 400px;
+    display: table;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,.1);
+    padding: 5px;
+    border-radius: 5px;
+}
+.form_block > #title {
+    background: hsl(204, 91%, 39%);
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-shadow: -1px -1px 0 rgba(0,0,0,.2);
+}
+.form_block>.body {
+    background: #FFFFFF;
+    padding: 10px;
+}
+input[type='text'] {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 4px 5px;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+input[type='submit'] {
+    height: 35px;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    background: hsl(204, 91%, 39%);
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.copy-button {
+    height: 35px;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    background: hsl(204, 91%, 39%); 
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+.copy-button:hover {
+    background: hsl(204, 91%, 29%);
+}
